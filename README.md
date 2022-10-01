@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# My blog to publish my articles.
+
+## This is a static website built with nextJS.
