@@ -12,7 +12,8 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className="pt-5">
         <p className="text-base md:text-2xl sm:text-lg font-blod tracking-wide antialiased py-5">
-          بكالوريس رياضيات ، هاوي و محب لعالم الخورازميات و البرمجة
+          كاتب و محب لعالم البرمجة و التطوير ، متخرج رياضيات لذلك أحب
+          الخوارزميات ❤️‍🔥
         </p>
       </section>
       <section className="container mx-auto text-2xl flex justify-start flex-col px-0 pt-5">

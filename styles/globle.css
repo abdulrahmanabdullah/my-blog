@@ -16,6 +16,10 @@
   pre{
     @apply px-2 py-2 bg-[#282C34] overflow-x-auto;
   }
+
+  blockquote{
+    @apply py-2 px-2 border-r-4 border-gray-400 bg-gray-200;
+  }
 }
 html,
 body {
