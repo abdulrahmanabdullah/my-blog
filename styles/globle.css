@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import 'code';
 @layer base{
   h1{
     @apply text-2xl leading-relaxed py-1 text-black;
@@ -11,6 +12,9 @@
   }
   p{
     @apply text-gray-900 leading-relaxed py-1;
+  }
+  pre{
+    @apply px-2 py-2 bg-[#282C34] overflow-x-auto;
   }
 }
 html,
@@ -40,8 +44,17 @@ img {
   max-width: 100%;
   display: block;
 }
+pre {
+  direction: ltr;
+}
+code {
+  text-align: left;
+}
 @media (max-width:640px) {
   h1{
     @apply text-xl py-2 ;
   } 
+  code {
+    @apply text-xs py-1 px-1;
+  }
 }
